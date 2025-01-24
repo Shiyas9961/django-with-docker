@@ -18,10 +18,12 @@ from django.contrib import admin
 from django.urls import path
 from .views import TodoViewset
 from rest_framework import routers
+from django.conf import settings
+from django.conf.urls.static import static
 
 router = routers.SimpleRouter(trailing_slash=False)
 router.register(r'todos', TodoViewset)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-] + router.urls
+] + router.urls + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

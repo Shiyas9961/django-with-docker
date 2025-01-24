@@ -1,6 +1,9 @@
 # Use Python Official Image
 FROM python:3.10-slim
 
+# Install Dependencies
+RUN apt-get update && apt-get install -y netcat-openbsd && rm -rf /var/lib/apt/lists/*
+
 # Set Working Directory
 WORKDIR /app
 

@@ -1,4 +1,106 @@
-venv
-.venv
-.python-versions
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+db.sqlite3
+db.sqlite3-journal
+
+# If you're using Django's `DEBUG=True` and storing secret keys locally:
+.env
+*.env
+
+# Local settings
+settings_local.py
+
+# Media and static files
+media/
+staticfiles/
+static/
+
+# pytest
+.cache/
+.pytest_cache/
+
+# MyPy type checker
+.mypy_cache/
+.dmypy.json
+
+# PEP 582; used by Python's module-based virtual environments
+__pypackages__/
+
+# VSCode
+.vscode/
+
+# macOS
 .DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# pip environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Testing
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.coveragerc
+*.hypothesis/
+.pyre/
+
+# IDEs and editors
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# PyCharm
+*.iml
+.idea/
+*.ipr
+*.iws
