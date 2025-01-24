@@ -39,11 +39,6 @@ db.sqlite3-journal
 # Local settings
 settings_local.py
 
-# Media and static files
-media/
-staticfiles/
-static/
-
 # pytest
 .cache/
 .pytest_cache/
